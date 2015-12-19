@@ -15,6 +15,8 @@ class TextViewTableViewCell: UITableViewCell {
         // Initialization code
     }
 
+    @IBOutlet weak var textViewHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var textView: UITextView!
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
